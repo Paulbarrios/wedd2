@@ -1,0 +1,285 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "j72Avb9ZCpnuWkUKURgspB",
+      "projectApiToken": "dHyQ0hKZKPGkrsRaBpjauGkLGpGjSnJbP4qKG3VDuopsWpyhpSgmQPB4LzIXTj6QTYawT1DYevEnxDEeAg",
+      "projectName": "Wedding",
+      "version": "latest",
+      "cssFilePath": "plasmic/wedding/plasmic_wedding.module.css",
+      "components": [
+        {
+          "id": "qn5TLnBE3O",
+          "name": "Homepage2",
+          "type": "managed",
+          "projectId": "j72Avb9ZCpnuWkUKURgspB",
+          "renderModuleFilePath": "plasmic/wedding/PlasmicHomepage2.jsx",
+          "importSpec": {
+            "modulePath": "Homepage2.jsx"
+          },
+          "cssFilePath": "plasmic/wedding/PlasmicHomepage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "BEPqn7HR6hE",
+          "name": "Principal",
+          "type": "managed",
+          "projectId": "j72Avb9ZCpnuWkUKURgspB",
+          "renderModuleFilePath": "plasmic/wedding/PlasmicPrincipal.jsx",
+          "importSpec": {
+            "modulePath": "Principal.jsx"
+          },
+          "cssFilePath": "plasmic/wedding/PlasmicPrincipal.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "6YmzTPpOhex",
+          "name": "Polygon6Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Polygon6.jsx"
+        },
+        {
+          "id": "zGZjcbACVmL",
+          "name": "Ellipse1Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Ellipse1.jsx"
+        },
+        {
+          "id": "vIB1zg7bYuR",
+          "name": "TrazoMapa1TracedIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__TrazoMapa1Traced.jsx"
+        },
+        {
+          "id": "XF_eT3LVgni",
+          "name": "UnionIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Union.jsx"
+        },
+        {
+          "id": "6Wz3Xy-RSTw",
+          "name": "RingsIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Rings.jsx"
+        },
+        {
+          "id": "c2GIKsZ-vSG",
+          "name": "GasStationTracedIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__GasStationTraced.jsx"
+        },
+        {
+          "id": "ef38l5rGTjP",
+          "name": "WalletTracedIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__WalletTraced.jsx"
+        },
+        {
+          "id": "4N01F37ufcu",
+          "name": "Vector15Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Vector15.jsx"
+        },
+        {
+          "id": "IxXbNq6loq8",
+          "name": "Vector16Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Vector16.jsx"
+        },
+        {
+          "id": "z3BnojU3NyM",
+          "name": "Rings2Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Rings2.jsx"
+        },
+        {
+          "id": "MCcUz9ZLVF1",
+          "name": "CopaIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Copa.jsx"
+        },
+        {
+          "id": "PjrIv_sUJcV",
+          "name": "CenaIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Cena.jsx"
+        },
+        {
+          "id": "bA8skHVm69t",
+          "name": "BolaIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Bola.jsx"
+        },
+        {
+          "id": "kSeAGTBe8H7",
+          "name": "FloresIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Flores.jsx"
+        },
+        {
+          "id": "YLk2j-ZmcQ6",
+          "name": "LetrasIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Letras.jsx"
+        },
+        {
+          "id": "0EyqZkktOVL",
+          "name": "Group1Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Group1.jsx"
+        },
+        {
+          "id": "sjYj5WHGv4H",
+          "name": "Rings3Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Rings3.jsx"
+        },
+        {
+          "id": "-phooncCvyR",
+          "name": "Copa2Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Copa2.jsx"
+        },
+        {
+          "id": "KqPlEmsKEku",
+          "name": "Cena2Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Cena2.jsx"
+        },
+        {
+          "id": "4A559WGKOi7",
+          "name": "Bola2Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Bola2.jsx"
+        },
+        {
+          "id": "JKyEDg31S3T",
+          "name": "Vector17Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Vector17.jsx"
+        },
+        {
+          "id": "va7yLc0aKda",
+          "name": "Vector18Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Vector18.jsx"
+        },
+        {
+          "id": "c865p2zkfbQ",
+          "name": "Line5Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Line5.jsx"
+        },
+        {
+          "id": "Wk8xqNmmVhK",
+          "name": "Line6Icon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Line6.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "QRRIQddz1G",
+          "name": "WhatsApp Image 2022-05-11 at 7.54 1",
+          "filePath": "plasmic/wedding/images/whatsAppImage20220511At7541.jpeg"
+        },
+        {
+          "id": "lduq6J_6Yb",
+          "name": "fondo 1",
+          "filePath": "plasmic/wedding/images/fondo1.jpeg"
+        },
+        {
+          "id": "TwSLm9E3Uh",
+          "name": "FE5AC427-1BC5-4BF4-9403-64CE9ED93A03 1",
+          "filePath": "plasmic/wedding/images/fe5Ac4271Bc54Bf4940364Ce9Ed93A031.jpeg"
+        },
+        {
+          "id": "CcDZbZ7xFs",
+          "name": "Chicos 1",
+          "filePath": "plasmic/wedding/images/chicos1.jpeg"
+        },
+        {
+          "id": "7et1h4EOzg",
+          "name": "mask 1",
+          "filePath": "plasmic/wedding/images/mask1.png"
+        },
+        {
+          "id": "zOaGpYnPm1",
+          "name": "Layer 1 1",
+          "filePath": "plasmic/wedding/images/layer11.png"
+        },
+        {
+          "id": "yOKlYBegBR",
+          "name": "rama2 2",
+          "filePath": "plasmic/wedding/images/rama22.png"
+        },
+        {
+          "id": "7yU_Ny8WJ_",
+          "name": "Flor2 1",
+          "filePath": "plasmic/wedding/images/flor21.png"
+        },
+        {
+          "id": "93oRhz8Lx9",
+          "name": "rama1 1",
+          "filePath": "plasmic/wedding/images/rama11.png"
+        },
+        {
+          "id": "t9_mnpjEqb",
+          "name": "Captura de pantalla 2022-05-11 a las 21.13 1",
+          "filePath": "plasmic/wedding/images/capturaDePantalla20220511ALas21131.png"
+        },
+        {
+          "id": "gSS-OKqN0I3",
+          "name": "Placeholder",
+          "filePath": "plasmic/wedding/images/placeholder.svg"
+        },
+        {
+          "id": "0NKdD7ATsPk",
+          "name": "Vector",
+          "filePath": "plasmic/wedding/images/vector.svg"
+        },
+        {
+          "id": "hKAlucLm6Nq",
+          "name": "Captura de pantalla 2022-05-13 a las 21.15 1 (Traced)",
+          "filePath": "plasmic/wedding/images/capturaDePantalla20220513ALas21151Traced.svg"
+        },
+        {
+          "id": "C2n1zhuBzEz",
+          "name": "Vector 2",
+          "filePath": "plasmic/wedding/images/vector2.svg"
+        },
+        {
+          "id": "KiK5TbFXkxd",
+          "name": "Vector 3",
+          "filePath": "plasmic/wedding/images/vector3.svg"
+        },
+        {
+          "id": "OIE5VjFkKt",
+          "name": "Vector 4",
+          "filePath": "plasmic/wedding/images/vector4.svg"
+        },
+        {
+          "id": "6ESZ4J9BrR",
+          "name": "Captura de pantalla 2022-05-13 a las 21.15 1 (Traced) 2",
+          "filePath": "plasmic/wedding/images/capturaDePantalla20220513ALas21151Traced2.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "aE5i9AyA2unvu",
+        "name": "Screen",
+        "projectId": "j72Avb9ZCpnuWkUKURgspB",
+        "contextFilePath": "plasmic/wedding/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.183",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.183/dist/plasmic.schema.json"
+}
