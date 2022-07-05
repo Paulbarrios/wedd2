@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -28,19 +28,6 @@
       "version": "latest",
       "cssFilePath": "plasmic/wedding/plasmic_wedding.module.css",
       "components": [
-        {
-          "id": "qn5TLnBE3O",
-          "name": "Homepage2",
-          "type": "managed",
-          "projectId": "j72Avb9ZCpnuWkUKURgspB",
-          "renderModuleFilePath": "plasmic/wedding/PlasmicHomepage2.jsx",
-          "importSpec": {
-            "modulePath": "Homepage2.jsx"
-          },
-          "cssFilePath": "plasmic/wedding/PlasmicHomepage2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
         {
           "id": "BEPqn7HR6hE",
           "name": "Principal",
@@ -280,6 +267,6 @@
     ]
   },
   "wrapPagesWithGlobalContexts": true,
-  "cliVersion": "0.1.183",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.183/dist/plasmic.schema.json"
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
 }
