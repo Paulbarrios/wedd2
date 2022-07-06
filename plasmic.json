@@ -40,6 +40,34 @@
           "cssFilePath": "plasmic/wedding/PlasmicPrincipal.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "czIRwjWa6P2",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "j72Avb9ZCpnuWkUKURgspB",
+          "renderModuleFilePath": "plasmic/wedding/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/wedding/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "bsHYMTqsewT",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "j72Avb9ZCpnuWkUKURgspB",
+          "renderModuleFilePath": "plasmic/wedding/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/wedding/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
         }
       ],
       "icons": [
@@ -162,6 +190,21 @@
           "id": "Wk8xqNmmVhK",
           "name": "Line6Icon",
           "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Line6.jsx"
+        },
+        {
+          "id": "Nrdc9InIVg0",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "oOz0J5J9568",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "CHREPQbnkEZ",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/wedding/icons/PlasmicIcon__Icon.jsx"
         }
       ],
       "images": [

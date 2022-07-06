@@ -18,11 +18,14 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import TextInput from "../../TextInput"; // plasmic-import: czIRwjWa6P2/component
+import Button from "../../Button"; // plasmic-import: bsHYMTqsewT/component
 import { useScreenVariants as useScreenVariantsaE5I9AyA2Unvu } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: aE5i9AyA2unvu/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_wedding.module.css"; // plasmic-import: j72Avb9ZCpnuWkUKURgspB/projectcss
 import sty from "./PlasmicPrincipal.module.css"; // plasmic-import: BEPqn7HR6hE/css
 import LetrasIcon from "./icons/PlasmicIcon__Letras"; // plasmic-import: YLk2j-ZmcQ6/icon
+import FloresIcon from "./icons/PlasmicIcon__Flores"; // plasmic-import: kSeAGTBe8H7/icon
 import Polygon6Icon from "./icons/PlasmicIcon__Polygon6"; // plasmic-import: 6YmzTPpOhex/icon
 import Rings2Icon from "./icons/PlasmicIcon__Rings2"; // plasmic-import: z3BnojU3NyM/icon
 import Copa2Icon from "./icons/PlasmicIcon__Copa2"; // plasmic-import: -phooncCvyR/icon
@@ -148,6 +151,24 @@ function PlasmicPrincipal__RenderFunc(props) {
                     }}
                   />
 
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__tqh6W)}
+                    displayHeight={"215px"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"169px"}
+                    loading={"lazy"}
+                    src={{
+                      src: vector2C2N1ZhuBzEz,
+                      fullWidth: 169,
+                      fullHeight: 215,
+                      aspectRatio: 0.786047
+                    }}
+                  />
+
                   <div
                     className={classNames(projectcss.all, sty.freeBox__xj4DC)}
                   >
@@ -177,24 +198,6 @@ function PlasmicPrincipal__RenderFunc(props) {
                       }
                     </div>
                   </div>
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__tqh6W)}
-                    displayHeight={"215px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"169px"}
-                    loading={"lazy"}
-                    src={{
-                      src: vector2C2N1ZhuBzEz,
-                      fullWidth: 169,
-                      fullHeight: 215,
-                      aspectRatio: 0.786047
-                    }}
-                  />
                 </div>
 
                 <div
@@ -202,6 +205,11 @@ function PlasmicPrincipal__RenderFunc(props) {
                   data-plasmic-override={overrides.counter}
                   className={classNames(projectcss.all, sty.counter)}
                 >
+                  <FloresIcon
+                    className={classNames(projectcss.all, sty.svg___1CJhG)}
+                    role={"img"}
+                  />
+
                   {true ? (
                     <div
                       className={classNames(projectcss.all, sty.freeBox__aEr1T)}
@@ -350,10 +358,24 @@ function PlasmicPrincipal__RenderFunc(props) {
                     role={"img"}
                   />
 
+                  {true ? (
+                    <Polygon6Icon
+                      data-plasmic-name={"r2"}
+                      data-plasmic-override={overrides.r2}
+                      className={classNames(projectcss.all, sty.r2)}
+                      role={"img"}
+                    />
+                  ) : null}
+
+                  <FloresIcon
+                    className={classNames(projectcss.all, sty.svg__oIaS6)}
+                    role={"img"}
+                  />
+
                   <Polygon6Icon
-                    data-plasmic-name={"r2"}
-                    data-plasmic-override={overrides.r2}
-                    className={classNames(projectcss.all, sty.r2)}
+                    data-plasmic-name={"left3"}
+                    data-plasmic-override={overrides.left3}
+                    className={classNames(projectcss.all, sty.left3)}
                     role={"img"}
                   />
                 </div>
@@ -1294,7 +1316,22 @@ function PlasmicPrincipal__RenderFunc(props) {
 
                     <div
                       className={classNames(projectcss.all, sty.freeBox__vgIf4)}
-                    />
+                    >
+                      <TextInput
+                        data-plasmic-name={"textInput"}
+                        data-plasmic-override={overrides.textInput}
+                        className={classNames("__wab_instance", sty.textInput)}
+                        placeholder={""}
+                      />
+
+                      <Button
+                        data-plasmic-name={"button"}
+                        data-plasmic-override={overrides.button}
+                        className={classNames("__wab_instance", sty.button)}
+                      >
+                        {"Confirmo!"}
+                      </Button>
+                    </div>
                   </div>
                 </div>
 
@@ -1308,7 +1345,29 @@ function PlasmicPrincipal__RenderFunc(props) {
                   >
                     <div
                       className={classNames(projectcss.all, sty.freeBox__r1Mlq)}
-                    />
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__poGpP
+                        )}
+                      >
+                        {"Como llegar"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__x2Y3F
+                        )}
+                      >
+                        {
+                          "Carretera de la Coruña, km 44.\n\n28440 GUADARRAMA (MADRID).\n\nMiravalle está escasamente a 20 minutos de Madrid, por la Autopista de la Coruña A-6 (Salida-42), en el Km. 44 y a 8 minutos del Real Sitio de San Lorenzo de El Escorial.\n\nSe sitúa entre los municipios de Collado Villalba y Guadarrama.\n\nSi no pincha en el mapa y que tu GPS te lleve 😜"
+                        }
+                      </div>
+                    </div>
 
                     <div
                       className={classNames(projectcss.all, sty.freeBox__p99Us)}
@@ -1530,6 +1589,7 @@ const PlasmicDescendants = {
     "left1",
     "r1",
     "r2",
+    "left3",
     "cronograma",
     "rama17",
     "homeTimetable",
@@ -1551,6 +1611,9 @@ const PlasmicDescendants = {
     "money",
     "fincaMiravalleGuadarrama3",
     "confirmacion",
+    "textInput",
+    "textbox",
+    "button",
     "direccion",
     "map2",
     "capturaDePantalla20220511ALas21132",
@@ -1576,7 +1639,8 @@ const PlasmicDescendants = {
     "letters",
     "left1",
     "r1",
-    "r2"
+    "r2",
+    "left3"
   ],
 
   fincaMiravalleGuadarrama2: ["fincaMiravalleGuadarrama2"],
@@ -1585,6 +1649,7 @@ const PlasmicDescendants = {
   left1: ["left1"],
   r1: ["r1"],
   r2: ["r2"],
+  left3: ["left3"],
   cronograma: [
     "cronograma",
     "rama17",
@@ -1649,7 +1714,9 @@ const PlasmicDescendants = {
   flor24: ["flor24"],
   money: ["money", "fincaMiravalleGuadarrama3"],
   fincaMiravalleGuadarrama3: ["fincaMiravalleGuadarrama3"],
-  confirmacion: ["confirmacion"],
+  confirmacion: ["confirmacion", "textInput", "textbox", "button"],
+  textInput: ["textInput", "textbox"],
+  button: ["button"],
   direccion: [
     "direccion",
     "map2",
@@ -1729,6 +1796,7 @@ export const PlasmicPrincipal = Object.assign(
     left1: makeNodeComponent("left1"),
     r1: makeNodeComponent("r1"),
     r2: makeNodeComponent("r2"),
+    left3: makeNodeComponent("left3"),
     cronograma: makeNodeComponent("cronograma"),
     rama17: makeNodeComponent("rama17"),
     homeTimetable: makeNodeComponent("homeTimetable"),
@@ -1758,6 +1826,8 @@ export const PlasmicPrincipal = Object.assign(
     money: makeNodeComponent("money"),
     fincaMiravalleGuadarrama3: makeNodeComponent("fincaMiravalleGuadarrama3"),
     confirmacion: makeNodeComponent("confirmacion"),
+    textInput: makeNodeComponent("textInput"),
+    button: makeNodeComponent("button"),
     direccion: makeNodeComponent("direccion"),
     map2: makeNodeComponent("map2"),
     capturaDePantalla20220511ALas21132: makeNodeComponent(
