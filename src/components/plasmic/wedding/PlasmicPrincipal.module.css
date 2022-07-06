@@ -2257,6 +2257,12 @@
 .img__umrGr > .__wab_img-spacer > img {
   object-fit: cover;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__umrGr {
+    width: auto;
+    height: auto;
+  }
+}
 .map2 {
   width: 331px;
   height: 324px;

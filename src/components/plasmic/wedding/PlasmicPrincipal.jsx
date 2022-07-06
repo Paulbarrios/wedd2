@@ -1379,12 +1379,20 @@ function PlasmicPrincipal__RenderFunc(props) {
                       <p.PlasmicImg
                         alt={""}
                         className={classNames(sty.img__umrGr)}
-                        displayHeight={"278px"}
+                        displayHeight={
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? "auto"
+                            : "278px"
+                        }
                         displayMaxHeight={"none"}
                         displayMaxWidth={"100%"}
                         displayMinHeight={"0"}
                         displayMinWidth={"0"}
-                        displayWidth={"auto"}
+                        displayWidth={
+                          hasVariant(globalVariants, "screen", "mobileOnly")
+                            ? "auto"
+                            : "auto"
+                        }
                         loading={"lazy"}
                         src={{
                           src: imageAfdupae1,
