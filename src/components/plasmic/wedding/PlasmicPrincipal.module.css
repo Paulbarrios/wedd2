@@ -649,8 +649,8 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .left3 {
-    top: 232px;
-    left: -331px;
+    top: 261px;
+    left: -359px;
     width: 462px;
   }
 }
@@ -1478,7 +1478,7 @@
   color: rgba(69, 69, 69, 1);
   position: absolute;
   top: 763px;
-  left: 305px;
+  left: 381px;
 }
 .text__l4F1K {
   display: block;
@@ -2248,6 +2248,7 @@
   top: auto;
   left: auto;
   width: 100%;
+  padding-bottom: 0px;
   min-width: 0;
 }
 @media (min-width: 0px) and (max-width: 768px) {

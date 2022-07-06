@@ -195,9 +195,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                         sty.text__jHFrA
                       )}
                     >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
-                        : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."}
+                      {
+                        "Nos conocimos hace unos 5 bailando y algo en nuestros corazones se activó, pero Dios quiso darnos más tiempo para que hace 1 año y 5 meses, nos volviésemos a reencontrar y en muy poco tiempo nos dimos cuenta de que queríamos compartir el resto de nuestras vidas juntos.\n\nDe común acuerdo y en plena posesión de nuestras facultades mentales (sean las que sean) hemos decidido… ¡casarnos!😁"
+                      }
                     </div>
                   </div>
                 </div>
@@ -604,7 +604,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__zzyU
                         )}
                       >
-                        {"¡Nuesto momento!"}
+                        {"¡La ceremonia!"}
                       </div>
 
                       <div
@@ -614,7 +614,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__a9K5M
                         )}
                       >
-                        {"Elit sit feugiat."}
+                        {"Cocktail"}
                       </div>
 
                       <div
@@ -624,7 +624,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__nKjmi
                         )}
                       >
-                        {"Lorem sit ut nisl."}
+                        {"Cena"}
                       </div>
 
                       <div
@@ -634,7 +634,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__jy9Ik
                         )}
                       >
-                        {"Tincidunt purus."}
+                        {"¡A bailar!"}
                       </div>
 
                       <div
@@ -645,7 +645,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Aprovechamos para decirte que nuestra boda será (estilo de la boda). Por lo que te recomenamos que te vistas...blablabla"
+                          "Ponte la ropa que más te guste y te haga feliz, ¡¡pero en chándal no!! 😜"
                         }
                       </div>
 
@@ -656,9 +656,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text___694Xf
                         )}
                       >
-                        {
-                          "Tenemos X Plazas de coche disponibles así que llega puntual y no te pierdas nada......"
-                        }
+                        {"Intenta ser puntual para no perderte nada. "}
                       </div>
 
                       <div
@@ -674,9 +672,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitMolestieLeoNuncEgestasViverraNullamPellentesqueArcuSedAt3
                         )}
                       >
-                        {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie leo nunc egestas viverra nullam pellentesque arcu sed at. "
-                        }
+                        {"Compartiremos juntos nuestra unión."}
                       </div>
 
                       <div
@@ -686,9 +682,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__bLxSn
                         )}
                       >
-                        {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fames sed eu ac."
-                        }
+                        {"¡A alimentarse y compartir!"}
                       </div>
 
                       <div
@@ -699,7 +693,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh euismod posuere ornare quis tempor enim in. Id suspendisse ligula amet."
+                          "Para que puedas salir rodando a la siguiente actividad."
                         }
                       </div>
 
@@ -711,7 +705,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor risus sed."
+                          "Prepárate para no dejar de mover ese cuerpo y darlo todo!"
                         }
                       </div>
 
@@ -934,7 +928,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__gVbNb
                         )}
                       >
-                        {"¡Nuesto momento!"}
+                        {"¡La ceremonia!"}
                       </div>
 
                       <div
@@ -944,7 +938,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text___9FUgb
                         )}
                       >
-                        {"Lorem sit ut nisl."}
+                        {"Cena"}
                       </div>
 
                       <div
@@ -955,7 +949,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Aprovechamos para decirte que nuestra boda será (estilo de la boda). Por lo que te recomenamos que te vistas...blablabla"
+                          "Ponte la ropa que más te guste y te haga feliz, ¡¡pero en chándal no!! 😜"
                         }
                       </div>
 
@@ -972,9 +966,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitMolestieLeoNuncEgestasViverraNullamPellentesqueArcuSedAt2
                         )}
                       >
-                        {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie leo nunc egestas viverra nullam pellentesque arcu sed at. "
-                        }
+                        {"Compartiremos juntos nuestra unión."}
                       </div>
 
                       <div
@@ -985,7 +977,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh euismod posuere ornare quis tempor enim in. Id suspendisse ligula amet."
+                          "Para que puedas salir rodando a la siguiente actividad."
                         }
                       </div>
 
@@ -1053,7 +1045,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__tXytF
                         )}
                       >
-                        {"Elit sit feugiat."}
+                        {"Cocktail"}
                       </div>
 
                       <div
@@ -1063,7 +1055,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__kj5Fa
                         )}
                       >
-                        {"Tincidunt purus."}
+                        {"¡A bailar! "}
                       </div>
 
                       <div
@@ -1073,9 +1065,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__oV11F
                         )}
                       >
-                        {
-                          "Tenemos X Plazas de coche disponibles así que llega puntual y no te pierdas nada......"
-                        }
+                        {"Intenta ser puntual para no perderte nada. "}
                       </div>
 
                       <div
@@ -1085,9 +1075,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__r9TA
                         )}
                       >
-                        {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fames sed eu ac."
-                        }
+                        {"¡A alimentarse y compartir!"}
                       </div>
 
                       <div
@@ -1098,7 +1086,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor risus sed."
+                          "Prepárate para no dejar de mover ese cuerpo y darlo todo!"
                         }
                       </div>
 
@@ -1233,9 +1221,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__gn4TC
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "Ayúdanos a \ncomenzar \nesta nueva \netapa juntos"
-                          : "Ayúdanos a comenzar \nesta nueva etapa juntos"}
+                        {"Si quieres ayudarnos"}
                       </div>
 
                       {true ? (
@@ -1264,7 +1250,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                               sty.fincaMiravalleGuadarrama3
                             )}
                           >
-                            {"0000 0000 0000 0000 0000"}
+                            {"ES22 0182 5322 2802 0000 4529"}
                           </div>
                         </div>
                       ) : null}
@@ -1278,9 +1264,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                       sty.text__yjwYf
                     )}
                   >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
-                      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. "}
+                    {
+                      "Vuestra presencia en la boda será nuestro mayor regalo, pero si queréis apoyarnos con nuestra próxima aventura, aquí tenéis el lugar"
+                    }
                   </div>
                 </div>
 
@@ -1302,7 +1288,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__fZA5
                         )}
                       >
-                        {"¿Vienes?"}
+                        {"¿Te vienes?"}
                       </div>
 
                       <div
@@ -1312,9 +1298,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__qr1Ru
                         )}
                       >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "Queremos que vengas a nuetra boda...\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
-                          : "Queremos que vengas a nuetra boda...\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt."}
+                        {
+                          "Hay momentos en la vida que son especiales por si mismos, pero compartirlo con vosotros lo hará inolvidable. Nos encantaría que nos acompañases a celebrar nuestro enlace matrimonial. \nSi es así, escribe aquí tu nombre y cuéntanos si eres intolerante/alérgico o cualquier otro comentario que te apetezca hacernos: "
+                        }
                       </div>
                     </div>
 
@@ -1368,7 +1354,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                         )}
                       >
                         {
-                          "Carretera de la Coruña, km 44.\n\n28440 GUADARRAMA (MADRID).\n\nMiravalle está escasamente a 20 minutos de Madrid, por la Autopista de la Coruña A-6 (Salida-42), en el Km. 44 y a 8 minutos del Real Sitio de San Lorenzo de El Escorial.\n\nSe sitúa entre los municipios de Collado Villalba y Guadarrama.\n\nSi no pincha en el mapa y que tu GPS te lleve 😜"
+                          "Carretera de la Coruña, km 44.\n\n28440 GUADARRAMA (MADRID).\n\nMiravalle está escasamente a 20 minutos de Madrid, por la Autopista de la Coruña A-6 (Salida-42), en el Km. 44 y a 8 minutos del Real Sitio de San Lorenzo de El Escorial.\n\nSe sitúa entre los municipios de Collado Villalba y Guadarrama.\n\nSi sigues en duda de cómo llegar, puedes pinchar en el mapa y que tú GPS te lleve 😄"
                         }
                       </div>
                     </div>
