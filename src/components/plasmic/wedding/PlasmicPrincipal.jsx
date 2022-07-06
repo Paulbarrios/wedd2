@@ -1376,31 +1376,47 @@ function PlasmicPrincipal__RenderFunc(props) {
                     <div
                       className={classNames(projectcss.all, sty.freeBox__p99Us)}
                     >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__umrGr)}
-                        displayHeight={
+                      <a
+                        data-plasmic-name={"link"}
+                        data-plasmic-override={overrides.link}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link
+                        )}
+                        href={
                           hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "auto"
-                            : "278px"
+                            ? "https://goo.gl/maps/1TpZ7KfnWpXACfnB6"
+                            : "https://goo.gl/maps/1TpZ7KfnWpXACfnB6"
                         }
-                        displayMaxHeight={"none"}
-                        displayMaxWidth={"100%"}
-                        displayMinHeight={"0"}
-                        displayMinWidth={"0"}
-                        displayWidth={
-                          hasVariant(globalVariants, "screen", "mobileOnly")
-                            ? "auto"
-                            : "auto"
-                        }
-                        loading={"lazy"}
-                        src={{
-                          src: imageAfdupae1,
-                          fullWidth: 1284,
-                          fullHeight: 1283,
-                          aspectRatio: undefined
-                        }}
-                      />
+                      >
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__umrGr)}
+                          displayHeight={
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "auto"
+                              : "278px"
+                          }
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "auto"
+                              : "auto"
+                          }
+                          link={"https://goo.gl/maps/1TpZ7KfnWpXACfnB6"}
+                          loading={"lazy"}
+                          src={{
+                            src: imageAfdupae1,
+                            fullWidth: 1284,
+                            fullHeight: 1283,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </a>
 
                       {true ? (
                         <div
@@ -1659,6 +1675,7 @@ const PlasmicDescendants = {
     "textbox",
     "button",
     "direccion",
+    "link",
     "map2",
     "capturaDePantalla20220511ALas21132",
     "frame18",
@@ -1763,6 +1780,7 @@ const PlasmicDescendants = {
   button: ["button"],
   direccion: [
     "direccion",
+    "link",
     "map2",
     "capturaDePantalla20220511ALas21132",
     "frame18",
@@ -1775,6 +1793,7 @@ const PlasmicDescendants = {
     "frame25"
   ],
 
+  link: ["link"],
   map2: [
     "map2",
     "capturaDePantalla20220511ALas21132",
@@ -1873,6 +1892,7 @@ export const PlasmicPrincipal = Object.assign(
     textInput: makeNodeComponent("textInput"),
     button: makeNodeComponent("button"),
     direccion: makeNodeComponent("direccion"),
+    link: makeNodeComponent("link"),
     map2: makeNodeComponent("map2"),
     capturaDePantalla20220511ALas21132: makeNodeComponent(
       "capturaDePantalla20220511ALas21132"
