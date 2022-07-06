@@ -115,6 +115,11 @@
   flex-shrink: 0;
   padding: 8px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .loveHistory {
+    height: auto;
+  }
+}
 .freeBox___7G8T {
   display: flex;
   position: relative;
@@ -255,6 +260,11 @@
   width: auto;
   align-self: center;
   margin: 0% 15%;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__jHFrA {
+    margin-bottom: 15%;
+  }
 }
 .counter {
   display: flex;
@@ -639,8 +649,9 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .left3 {
-    top: 264px;
-    left: -357px;
+    top: 232px;
+    left: -331px;
+    width: 462px;
   }
 }
 .cronograma {
@@ -1868,8 +1879,7 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .money {
-    height: 488px;
-    flex-shrink: 0;
+    height: auto;
   }
 }
 .freeBox___7Za1R {
@@ -1889,6 +1899,13 @@
   padding: 8px;
   margin: 0px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___7Za1R {
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+  }
+}
 .text__gn4TC {
   display: block;
   font-size: 68.317px;
@@ -1902,6 +1919,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .text__gn4TC {
     font-size: 3em;
+    margin: 0px 0px 30px;
   }
 }
 .freeBox__irZlt {
@@ -1917,6 +1935,12 @@
   left: auto;
   min-width: 0;
   padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__irZlt {
+    width: 331px;
+    margin: 0% 20px 10%;
+  }
 }
 .svg___8E2Rd {
   position: relative;
@@ -1963,7 +1987,9 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .text__yjwYf {
     width: auto;
-    margin: 0px 10px;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0% 15% 15%;
   }
 }
 .confirmacion {
@@ -2050,6 +2076,7 @@
 @media (min-width: 0px) and (max-width: 768px) {
   .text__qr1Ru {
     text-align: center;
+    font-size: 14px;
   }
 }
 .freeBox__vgIf4 {

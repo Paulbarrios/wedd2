@@ -195,9 +195,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                         sty.text__jHFrA
                       )}
                     >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
-                      }
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
+                        : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."}
                     </div>
                   </div>
                 </div>
@@ -1233,7 +1233,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__gn4TC
                         )}
                       >
-                        {"Ayúdanos a comenzar \nesta nueva etapa juntos"}
+                        {hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "Ayúdanos a \ncomenzar \nesta nueva \netapa juntos"
+                          : "Ayúdanos a comenzar \nesta nueva etapa juntos"}
                       </div>
 
                       {true ? (
@@ -1276,9 +1278,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                       sty.text__yjwYf
                     )}
                   >
-                    {
-                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
-                    }
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
+                      : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."}
                   </div>
                 </div>
 
@@ -1310,9 +1312,9 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__qr1Ru
                         )}
                       >
-                        {
-                          "Queremos que vengas a nuetra boda...\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
-                        }
+                        {hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "Queremos que vengas a nuetra boda...\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."
+                          : "Queremos que vengas a nuetra boda...\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, dui malesuada vitae, eu semper morbi. Sit egestas sodales lectus cras est. Varius neque, malesuada sodales mattis turpis blandit duis tellus neque. Pretium porttitor et id phasellus laoreet tortor sagittis, duis. Nisl lacus, enim consequat, vitae, at nulla. Semper nisi, in est sollicitudin feugiat id malesuada elit rhoncus. Vestibulum, nec velit, feugiat est. Posuere ut varius elit nulla aliquam. Congue senectus in vestibulum tincidunt. Lorem orci et tortor in etiam ornare aliquam. Ultricies pretium rhoncus consequat molestie."}
                       </div>
                     </div>
 
