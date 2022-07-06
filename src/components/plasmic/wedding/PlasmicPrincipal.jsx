@@ -52,6 +52,7 @@ import vector4Oie5VjFkKt from "./images/vector4.svg"; // plasmic-import: OIE5VjF
 import capturaDePantalla20220513ALas21151Traced26Esz4J9BrR from "./images/capturaDePantalla20220513ALas21151Traced2.svg"; // plasmic-import: 6ESZ4J9BrR/picture
 import vector0NKdD7ATsPk from "./images/vector.svg"; // plasmic-import: 0NKdD7ATsPk/picture
 import capturaDePantalla20220513ALas21151TracedHKAlucLm6Nq from "./images/capturaDePantalla20220513ALas21151Traced.svg"; // plasmic-import: hKAlucLm6Nq/picture
+import imageAfdupae1 from "./images/image.jpeg"; // plasmic-import: AFDUPAE_1/picture
 
 export const PlasmicPrincipal__VariantProps = new Array();
 
@@ -80,6 +81,7 @@ function PlasmicPrincipal__RenderFunc(props) {
               projectcss.root_reset,
               projectcss.plasmic_default_styles,
               projectcss.plasmic_mixins,
+              projectcss.plasmic_tokens,
               sty.root
             )}
           >
@@ -1372,196 +1374,228 @@ function PlasmicPrincipal__RenderFunc(props) {
                     <div
                       className={classNames(projectcss.all, sty.freeBox__p99Us)}
                     >
-                      <div
-                        data-plasmic-name={"map2"}
-                        data-plasmic-override={overrides.map2}
-                        className={classNames(projectcss.all, sty.map2)}
-                      >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__umrGr)}
+                        displayHeight={"278px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: imageAfdupae1,
+                          fullWidth: 1284,
+                          fullHeight: 1283,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      {true ? (
                         <div
-                          data-plasmic-name={
-                            "capturaDePantalla20220511ALas21132"
-                          }
-                          data-plasmic-override={
-                            overrides.capturaDePantalla20220511ALas21132
-                          }
-                          className={classNames(
-                            projectcss.all,
-                            sty.capturaDePantalla20220511ALas21132
-                          )}
-                        />
-
-                        <Ellipse1Icon
-                          className={classNames(projectcss.all, sty.svg__rb4Pb)}
-                          role={"img"}
-                        />
-
-                        <TrazoMapa1TracedIcon
-                          className={classNames(projectcss.all, sty.svg__k9Ki)}
-                          role={"img"}
-                        />
-
-                        <UnionIcon
-                          className={classNames(
-                            projectcss.all,
-                            sty.svg___3AqaK
-                          )}
-                          role={"img"}
-                        />
-
-                        <RingsIcon
-                          className={classNames(projectcss.all, sty.svg__xsAy)}
-                          role={"img"}
-                        />
-
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame18"}
-                          data-plasmic-override={overrides.frame18}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame18)}
+                          data-plasmic-name={"map2"}
+                          data-plasmic-override={overrides.map2}
+                          className={classNames(projectcss.all, sty.map2)}
                         >
                           <div
+                            data-plasmic-name={
+                              "capturaDePantalla20220511ALas21132"
+                            }
+                            data-plasmic-override={
+                              overrides.capturaDePantalla20220511ALas21132
+                            }
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__k0JbU
+                              sty.capturaDePantalla20220511ALas21132
                             )}
-                          >
-                            {"M-527"}
-                          </div>
-                        </p.Stack>
+                          />
 
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame19"}
-                          data-plasmic-override={overrides.frame19}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame19)}
-                        >
-                          <div
+                          <Ellipse1Icon
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___9I6QE
+                              sty.svg__rb4Pb
                             )}
-                          >
-                            {"M-620"}
-                          </div>
-                        </p.Stack>
+                            role={"img"}
+                          />
 
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame20"}
-                          data-plasmic-override={overrides.frame20}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame20)}
-                        >
-                          <div
+                          <TrazoMapa1TracedIcon
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__p9WD
+                              sty.svg__k9Ki
                             )}
-                          >
-                            {"M-510"}
-                          </div>
-                        </p.Stack>
+                            role={"img"}
+                          />
 
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame21"}
-                          data-plasmic-override={overrides.frame21}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame21)}
-                        >
-                          <div
+                          <UnionIcon
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__g6Vpw
+                              sty.svg___3AqaK
                             )}
-                          >
-                            {"M-619"}
-                          </div>
-                        </p.Stack>
+                            role={"img"}
+                          />
 
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame22"}
-                          data-plasmic-override={overrides.frame22}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame22)}
-                        >
-                          <div
+                          <RingsIcon
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__eXtld
+                              sty.svg__xsAy
                             )}
-                          >
-                            {"AP-6"}
-                          </div>
-                        </p.Stack>
+                            role={"img"}
+                          />
 
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame23"}
-                          data-plasmic-override={overrides.frame23}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame23)}
-                        >
-                          <div
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame18"}
+                            data-plasmic-override={overrides.frame18}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame18)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__k0JbU
+                              )}
+                            >
+                              {"M-527"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame19"}
+                            data-plasmic-override={overrides.frame19}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame19)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text___9I6QE
+                              )}
+                            >
+                              {"M-620"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame20"}
+                            data-plasmic-override={overrides.frame20}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame20)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__p9WD
+                              )}
+                            >
+                              {"M-510"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame21"}
+                            data-plasmic-override={overrides.frame21}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame21)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__g6Vpw
+                              )}
+                            >
+                              {"M-619"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame22"}
+                            data-plasmic-override={overrides.frame22}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame22)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__eXtld
+                              )}
+                            >
+                              {"AP-6"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame23"}
+                            data-plasmic-override={overrides.frame23}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame23)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__wjq87
+                              )}
+                            >
+                              {"AP-6"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame24"}
+                            data-plasmic-override={overrides.frame24}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame24)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__c5Lh5
+                              )}
+                            >
+                              {"N-VI"}
+                            </div>
+                          </p.Stack>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame25"}
+                            data-plasmic-override={overrides.frame25}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame25)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__ztti7
+                              )}
+                            >
+                              {"N-VI"}
+                            </div>
+                          </p.Stack>
+
+                          <GasStationTracedIcon
                             className={classNames(
                               projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__wjq87
+                              sty.svg__gLsS
                             )}
-                          >
-                            {"AP-6"}
-                          </div>
-                        </p.Stack>
-
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame24"}
-                          data-plasmic-override={overrides.frame24}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame24)}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__c5Lh5
-                            )}
-                          >
-                            {"N-VI"}
-                          </div>
-                        </p.Stack>
-
-                        <p.Stack
-                          as={"div"}
-                          data-plasmic-name={"frame25"}
-                          data-plasmic-override={overrides.frame25}
-                          hasGap={true}
-                          className={classNames(projectcss.all, sty.frame25)}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__ztti7
-                            )}
-                          >
-                            {"N-VI"}
-                          </div>
-                        </p.Stack>
-
-                        <GasStationTracedIcon
-                          className={classNames(projectcss.all, sty.svg__gLsS)}
-                          role={"img"}
-                        />
-                      </div>
+                            role={"img"}
+                          />
+                        </div>
+                      ) : null}
                     </div>
                   </div>
                 </div>
