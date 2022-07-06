@@ -1224,6 +1224,18 @@ function PlasmicPrincipal__RenderFunc(props) {
                         {"Si quieres ayudarnos"}
                       </div>
 
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__yjwYf
+                        )}
+                      >
+                        {
+                          "Vuestra presencia en la boda será nuestro mayor regalo, pero si queréis apoyarnos con nuestra próxima aventura, aquí tenéis el lugar"
+                        }
+                      </div>
+
                       {true ? (
                         <div
                           className={classNames(
@@ -1256,18 +1268,6 @@ function PlasmicPrincipal__RenderFunc(props) {
                       ) : null}
                     </div>
                   ) : null}
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__yjwYf
-                    )}
-                  >
-                    {
-                      "Vuestra presencia en la boda será nuestro mayor regalo, pero si queréis apoyarnos con nuestra próxima aventura, aquí tenéis el lugar"
-                    }
-                  </div>
                 </div>
 
                 <div
