@@ -1278,50 +1278,82 @@ function PlasmicPrincipal__RenderFunc(props) {
                   <div
                     className={classNames(projectcss.all, sty.freeBox__zGw6G)}
                   >
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__u0VaC)}
-                    >
+                    {true ? (
                       <div
                         className={classNames(
                           projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__fZA5
+                          sty.freeBox__u0VaC
                         )}
                       >
-                        {"¿Te vienes?"}
-                      </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__fZA5
+                          )}
+                        >
+                          {"¿Te vienes?"}
+                        </div>
 
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__qr1Ru
+                          )}
+                        >
+                          {
+                            "Hay momentos en la vida que son especiales por si mismos, pero compartirlo con vosotros lo hará inolvidable. Nos encantaría que nos acompañases a celebrar nuestro enlace matrimonial. \nSi es así, escribe aquí tu nombre y cuéntanos si eres intolerante/alérgico o cualquier otro comentario que te apetezca hacernos: "
+                          }
+                        </div>
+                      </div>
+                    ) : null}
+                    {true ? (
                       <div
                         className={classNames(
                           projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__qr1Ru
+                          sty.freeBox__vgIf4
                         )}
                       >
-                        {
-                          "Hay momentos en la vida que son especiales por si mismos, pero compartirlo con vosotros lo hará inolvidable. Nos encantaría que nos acompañases a celebrar nuestro enlace matrimonial. \nSi es así, escribe aquí tu nombre y cuéntanos si eres intolerante/alérgico o cualquier otro comentario que te apetezca hacernos: "
-                        }
+                        <TextInput
+                          data-plasmic-name={"textInput"}
+                          data-plasmic-override={overrides.textInput}
+                          className={classNames(
+                            "__wab_instance",
+                            sty.textInput
+                          )}
+                          placeholder={""}
+                        />
+
+                        {true ? (
+                          <Button
+                            data-plasmic-name={"button"}
+                            data-plasmic-override={overrides.button}
+                            className={classNames("__wab_instance", sty.button)}
+                          >
+                            {"Confirmo!"}
+                          </Button>
+                        ) : null}
                       </div>
-                    </div>
-
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__vgIf4)}
-                    >
-                      <TextInput
-                        data-plasmic-name={"textInput"}
-                        data-plasmic-override={overrides.textInput}
-                        className={classNames("__wab_instance", sty.textInput)}
-                        placeholder={""}
-                      />
-
-                      <Button
-                        data-plasmic-name={"button"}
-                        data-plasmic-override={overrides.button}
-                        className={classNames("__wab_instance", sty.button)}
+                    ) : null}
+                    {true ? (
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__hpsZ
+                        )}
                       >
-                        {"Confirmo!"}
-                      </Button>
-                    </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__cRCbk
+                          )}
+                        >
+                          {"Confirmado!"}
+                        </div>
+                      </div>
+                    ) : null}
                   </div>
                 </div>
 
