@@ -2159,6 +2159,7 @@
   height: 1em;
 }
 .freeBox__hpsZ {
+  display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
@@ -2167,7 +2168,6 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  display: none;
   padding: 8px;
   margin: 0px 0% 0px 0px;
 }
