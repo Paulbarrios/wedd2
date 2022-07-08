@@ -196,7 +196,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                       )}
                     >
                       {
-                        "Nos conocimos hace unos 5 bailando y algo en nuestros corazones se activó, pero Dios quiso darnos más tiempo para que hace 1 año y 5 meses, nos volviésemos a reencontrar y en muy poco tiempo nos dimos cuenta de que queríamos compartir el resto de nuestras vidas juntos.\n\nDe común acuerdo y en plena posesión de nuestras facultades mentales (sean las que sean) hemos decidido… ¡casarnos!😁"
+                        "Nos conocimos hace unos 5 años bailando y algo en nuestros corazones se activó, pero Dios quiso darnos más tiempo para que hace 1 año y 5 meses, nos volviésemos a reencontrar y en muy poco tiempo nos dimos cuenta de que queríamos compartir el resto de nuestras vidas juntos.\n\nDe común acuerdo y en plena posesión de nuestras facultades mentales (sean las que sean) hemos decidido… ¡casarnos!😁"
                       }
                     </div>
                   </div>
@@ -522,7 +522,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__fjqXo
                         )}
                       >
-                        {"00h"}
+                        {"17:30h"}
                       </div>
 
                       <div
@@ -532,7 +532,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__a02G
                         )}
                       >
-                        {"00h"}
+                        {"18:30h"}
                       </div>
 
                       <div
@@ -542,7 +542,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__wl2Hs
                         )}
                       >
-                        {"00h"}
+                        {"19:00h"}
                       </div>
 
                       <div
@@ -552,7 +552,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__ijPqC
                         )}
                       >
-                        {"00h"}
+                        {"20:00h"}
                       </div>
 
                       <div
@@ -562,7 +562,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__jF0H
                         )}
                       >
-                        {"00h"}
+                        {"21:00h"}
                       </div>
 
                       <div
@@ -572,7 +572,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__nrl96
                         )}
                       >
-                        {"00h"}
+                        {"00:00h"}
                       </div>
 
                       <div
@@ -883,7 +883,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__cJ64U
                         )}
                       >
-                        {"00h"}
+                        {"17:30h"}
                       </div>
 
                       <div
@@ -893,7 +893,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text___3SUFr
                         )}
                       >
-                        {"00h"}
+                        {"19:00h"}
                       </div>
 
                       <div
@@ -903,7 +903,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__hb3Ae
                         )}
                       >
-                        {"00h"}
+                        {"21:00h"}
                       </div>
 
                       <Vector15Icon
@@ -1003,7 +1003,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__xa7LD
                         )}
                       >
-                        {"00h"}
+                        {"18:30h"}
                       </div>
 
                       <div
@@ -1013,7 +1013,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__cIdk3
                         )}
                       >
-                        {"00h"}
+                        {"20:00h"}
                       </div>
 
                       <div
@@ -1023,7 +1023,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           sty.text__umJjH
                         )}
                       >
-                        {"00h"}
+                        {"00:00h"}
                       </div>
 
                       <div
@@ -1292,7 +1292,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                             sty.text__fZA5
                           )}
                         >
-                          {"¿Te vienes?"}
+                          {"¿Os venís?"}
                         </div>
 
                         <div
@@ -1303,7 +1303,7 @@ function PlasmicPrincipal__RenderFunc(props) {
                           )}
                         >
                           {
-                            "Hay momentos en la vida que son especiales por si mismos, pero compartirlo con vosotros lo hará inolvidable. Nos encantaría que nos acompañases a celebrar nuestro enlace matrimonial. \nSi es así, escribe aquí tu nombre y cuéntanos si eres intolerante/alérgico o cualquier otro comentario que te apetezca hacernos: "
+                            "Queridos Kimia y Alberto nos encantaría que nos acompañaseis a celebrar nuestro enlace matrimonial. \nSi es así, escribid aquí vuestros nombres y contadnos si sois intolerantes/alérgicos o cualquier otro comentario que os apetezca hacernos. \n"
                           }
                         </div>
                       </div>
