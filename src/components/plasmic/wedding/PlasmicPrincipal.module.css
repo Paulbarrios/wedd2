@@ -1319,6 +1319,11 @@
   top: 1806px;
   left: 261px;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .rama15 {
+    display: none;
+  }
+}
 .flor26 {
   background: url("./images/flor21.png") center center / cover no-repeat;
   width: 78px;
@@ -1327,6 +1332,11 @@
   position: absolute;
   top: 1544px;
   left: -125px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .flor26 {
+    display: none;
+  }
 }
 .left2 {
   position: absolute;

@@ -827,19 +827,28 @@ function PlasmicPrincipal__RenderFunc(props) {
                           className={classNames(projectcss.all, sty.flor25)}
                         />
                       ) : null}
-
-                      <div
-                        data-plasmic-name={"rama15"}
-                        data-plasmic-override={overrides.rama15}
-                        className={classNames(projectcss.all, sty.rama15)}
-                      />
-
-                      <div
-                        data-plasmic-name={"flor26"}
-                        data-plasmic-override={overrides.flor26}
-                        className={classNames(projectcss.all, sty.flor26)}
-                      />
-
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <div
+                          data-plasmic-name={"rama15"}
+                          data-plasmic-override={overrides.rama15}
+                          className={classNames(projectcss.all, sty.rama15)}
+                        />
+                      ) : null}
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
+                        <div
+                          data-plasmic-name={"flor26"}
+                          data-plasmic-override={overrides.flor26}
+                          className={classNames(projectcss.all, sty.flor26)}
+                        />
+                      ) : null}
                       {(
                         hasVariant(globalVariants, "screen", "mobileOnly")
                           ? true
