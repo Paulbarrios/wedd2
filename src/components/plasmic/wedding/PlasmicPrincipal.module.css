@@ -1394,7 +1394,7 @@
   width: 947px;
   height: 1162px;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   left: auto;
   top: auto;
