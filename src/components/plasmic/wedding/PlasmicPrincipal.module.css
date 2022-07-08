@@ -743,7 +743,7 @@
   width: 243px;
   height: 1147px;
   display: block;
-  overflow: hidden;
+  overflow: visible;
   flex-shrink: 0;
 }
 .img__fNxJt {
@@ -1280,6 +1280,17 @@
 .rama25 * {
   transform-style: preserve-3d;
 }
+@media (min-width: 0px) and (max-width: 768px) {
+  .rama25 {
+    transform-style: preserve-3d;
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .rama25 * {
+    transform-style: preserve-3d;
+  }
+}
 .flor25 {
   background: url("./images/flor21.png") center center / cover no-repeat;
   transform: translate(-0.18000000000000682px, 0.3810000000000002px);
@@ -1289,6 +1300,11 @@
   position: absolute;
   top: 172px;
   left: 307px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .flor25 {
+    display: none;
+  }
 }
 .rama15 {
   background: url("./images/rama11.png") center center / cover no-repeat;
@@ -1529,12 +1545,12 @@
   max-width: 100%;
   color: #464646;
   transform: skew(-0.057295760414500616deg, 0deg);
-  width: 265px;
+  width: 257px;
   height: 2px;
   display: block;
   transform-origin: top left;
   top: 284px;
-  left: 210px;
+  left: 218px;
 }
 .svg__dS01 {
   position: absolute;
@@ -1542,12 +1558,12 @@
   max-width: 100%;
   color: #464646;
   transform: skew(-0.057295760414500616deg, 0deg);
-  width: 265px;
+  width: 259px;
   height: 2px;
   display: block;
   transform-origin: top left;
   top: 535px;
-  left: 210px;
+  left: 216px;
 }
 .svg__d5Egg {
   position: absolute;
@@ -1555,12 +1571,12 @@
   max-width: 100%;
   color: #464646;
   transform: skew(-0.057295760414500616deg, 0deg);
-  width: 265px;
+  width: 255px;
   height: 2px;
   display: block;
   transform-origin: top left;
   top: 793px;
-  left: 210px;
+  left: 220px;
 }
 .text__xa7LD {
   display: block;
